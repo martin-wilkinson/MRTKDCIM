@@ -1,0 +1,24 @@
+D:\Unity\Projects\Quest3 MRTK\_builds\build\bin\ARM64\Release\resources.pri
+D:\Unity\Projects\Quest3 MRTK\_builds\build\bin\ARM64\Release\AppxManifest.xml
+D:\Unity\Projects\Quest3 MRTK\_builds\build\bin\ARM64\Release\Quest3 MRTK.build.appxrecipe
+D:\Unity\Projects\Quest3 MRTK\_builds\build\obj\Quest3 MRTK\ARM64\Release\Quest3 MRTK.vcxproj.AssemblyReference.cache
+D:\Unity\Projects\Quest3 MRTK\_builds\build\obj\Quest3 MRTK\ARM64\Release\Quest3 MRTK.vcxproj.CopyComplete
+D:\Unity\Projects\Quest3 MRTK\_builds\build\obj\Quest3 MRTK\ARM64\Release\ResourceHandlingTask.state
+D:\Unity\Projects\Quest3 MRTK\_builds\build\obj\Quest3 MRTK\ARM64\Release\Quest3 MRTK.vcxproj.GenerateResource.Cache
+D:\Unity\Projects\Quest3 MRTK\_builds\build\obj\Quest3 MRTK\ARM64\Release\priconfig.xml
+D:\Unity\Projects\Quest3 MRTK\_builds\build\obj\Quest3 MRTK\ARM64\Release\priconfig.xml.intermediate
+D:\Unity\Projects\Quest3 MRTK\_builds\build\obj\Quest3 MRTK\ARM64\Release\unfiltered.layout.resfiles
+D:\Unity\Projects\Quest3 MRTK\_builds\build\obj\Quest3 MRTK\ARM64\Release\unfiltered.layout.resfiles.intermediate
+D:\Unity\Projects\Quest3 MRTK\_builds\build\obj\Quest3 MRTK\ARM64\Release\filtered.layout.resfiles
+D:\Unity\Projects\Quest3 MRTK\_builds\build\obj\Quest3 MRTK\ARM64\Release\filtered.layout.resfiles.intermediate
+D:\Unity\Projects\Quest3 MRTK\_builds\build\obj\Quest3 MRTK\ARM64\Release\excluded.layout.resfiles
+D:\Unity\Projects\Quest3 MRTK\_builds\build\obj\Quest3 MRTK\ARM64\Release\excluded.layout.resfiles.intermediate
+D:\Unity\Projects\Quest3 MRTK\_builds\build\obj\Quest3 MRTK\ARM64\Release\resources.resfiles
+D:\Unity\Projects\Quest3 MRTK\_builds\build\obj\Quest3 MRTK\ARM64\Release\resources.resfiles.intermediate
+D:\Unity\Projects\Quest3 MRTK\_builds\build\obj\Quest3 MRTK\ARM64\Release\pri.resfiles
+D:\Unity\Projects\Quest3 MRTK\_builds\build\obj\Quest3 MRTK\ARM64\Release\pri.resfiles.intermediate
+D:\Unity\Projects\Quest3 MRTK\_builds\build\obj\Quest3 MRTK\ARM64\Release\qualifiers.txt
+D:\Unity\Projects\Quest3 MRTK\_builds\build\obj\Quest3 MRTK\ARM64\Release\qualifiers.txt.intermediate
+D:\Unity\Projects\Quest3 MRTK\_builds\build\obj\Quest3 MRTK\ARM64\Release\MultipleQualifiersPerDimensionFound.txt
+D:\Unity\Projects\Quest3 MRTK\_builds\build\obj\Quest3 MRTK\ARM64\Release\ProjectArchitectures.txt
+D:\Unity\Projects\Quest3 MRTK\_builds\build\obj\Quest3 MRTK\ARM64\Release\.winmd_cache\$UnityPlayer.winmd_638321315880000000.json

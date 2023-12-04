@@ -2,7 +2,6 @@
 // Licensed under the MIT License.
 
 using UnityEngine;
-using Microsoft.MixedReality.Toolkit;
 
 using SpatialGraphNode = Microsoft.MixedReality.OpenXR.SpatialGraphNode;
 using Microsoft.MixedReality.OpenXR;

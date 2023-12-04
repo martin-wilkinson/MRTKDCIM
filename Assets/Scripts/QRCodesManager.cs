@@ -8,6 +8,7 @@ using UnityEngine;
 
 namespace Microsoft.MixedReality.QuestMRTK3
 {
+    
     public static class QRCodeEventArgs
     {
         public static QRCodeEventArgs<TData> Create<TData>(TData data)
@@ -31,6 +32,8 @@ namespace Microsoft.MixedReality.QuestMRTK3
     {
         [Tooltip("Determines if the QR codes scanner should be automatically started.")]
         public bool AutoStartQRTracking = true;
+
+        public GameObject debugDialog;
 
         public bool IsTrackerRunning { get; private set; }
 

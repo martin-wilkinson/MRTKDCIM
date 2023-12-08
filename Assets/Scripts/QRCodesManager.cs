@@ -4,7 +4,9 @@
 using Microsoft.MixedReality.QR;
 using System;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Microsoft.MixedReality.QuestMRTK3
 {
@@ -33,9 +35,13 @@ namespace Microsoft.MixedReality.QuestMRTK3
         [Tooltip("Determines if the QR codes scanner should be automatically started.")]
         public bool AutoStartQRTracking = true;
 
-        public GameObject debugDialog;
+        public TextMeshProUGUI debugDialog;
+
+        public int frameCounter = 0;
 
         public bool IsTrackerRunning { get; private set; }
+
+        public IReadOnlyList<QRCode> qrList2;
 
         public bool IsSupported { get; private set; }
 
@@ -97,10 +103,12 @@ namespace Microsoft.MixedReality.QuestMRTK3
                 qrTracker.Updated += QRCodeWatcher_Updated;
                 qrTracker.Removed += QRCodeWatcher_Removed;
                 qrTracker.EnumerationCompleted += QRCodeWatcher_EnumerationCompleted;
+                debugDialog.text += "QR Watcher Setup has run\n";
             }
             catch (Exception ex)
             {
                 Debug.Log("QRCodesManager : exception starting the tracker " + ex.ToString());
+                debugDialog.text += "QRCodesManager : exception starting the tracker " + ex.ToString() + "\n";
             }
 
             if (AutoStartQRTracking)
@@ -119,6 +127,7 @@ namespace Microsoft.MixedReality.QuestMRTK3
                     qrTracker.Start();
                     IsTrackerRunning = true;
                     QRCodesTrackingStateChanged?.Invoke(this, true);
+                    debugDialog.text += "Started QR tracker successfully\n";
                 }
                 catch (Exception ex)
                 {
@@ -149,6 +158,7 @@ namespace Microsoft.MixedReality.QuestMRTK3
         private void QRCodeWatcher_Removed(object sender, QRCodeRemovedEventArgs args)
         {
             Debug.Log("QRCodesManager QRCodeWatcher_Removed");
+            debugDialog.text += "QRCode removed listener block\n";
 
             bool found = false;
             lock (qrCodesList)
@@ -172,6 +182,7 @@ namespace Microsoft.MixedReality.QuestMRTK3
         private void QRCodeWatcher_Updated(object sender, QRCodeUpdatedEventArgs args)
         {
             Debug.Log("QRCodesManager QRCodeWatcher_Updated");
+            debugDialog.text += "QRcode updated listener block\n";
 
             bool found = false;
             lock (qrCodesList)
@@ -195,6 +206,7 @@ namespace Microsoft.MixedReality.QuestMRTK3
         private void QRCodeWatcher_Added(object sender, QRCodeAddedEventArgs args)
         {
             Debug.Log("QRCodesManager QRCodeWatcher_Added");
+            debugDialog.text += "QR Code Added Listener Code block\n";
 
             lock (qrCodesList)
             {
@@ -214,6 +226,7 @@ namespace Microsoft.MixedReality.QuestMRTK3
 
         private void Update()
         {
+            frameCounter += 1;
             if (qrTracker == null && capabilityInitialized && IsSupported)
             {
                 if (accessStatus == QRCodeWatcherAccessStatus.Allowed)
@@ -224,6 +237,13 @@ namespace Microsoft.MixedReality.QuestMRTK3
                 {
                     Debug.Log("Capability access status : " + accessStatus);
                 }
+            }
+            else if (frameCounter == 240)
+            {
+                debugDialog.text += "is tracking: " + IsTrackerRunning + "\n";
+                debugDialog.text += "Built in QR List : " + qrList2 + "\n";
+                debugDialog.text += "Custom QR List: " + qrCodesList + "\n";
+                frameCounter = 0;
             }
         }
     }

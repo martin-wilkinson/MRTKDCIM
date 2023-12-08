@@ -2,6 +2,7 @@
 // Licensed under the MIT License.
 
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 namespace Microsoft.MixedReality.QuestMRTK3
@@ -9,6 +10,8 @@ namespace Microsoft.MixedReality.QuestMRTK3
     public class QRCodesVisualizer : MonoBehaviour
     {
         public GameObject qrCodePrefab;
+
+        public TextMeshProUGUI debugDialog;
 
         private SortedDictionary<System.Guid, GameObject> qrCodesObjectsList;
         private bool clearExisting = false;
@@ -37,6 +40,7 @@ namespace Microsoft.MixedReality.QuestMRTK3
         void Start()
         {
             Debug.Log("QRCodesVisualizer start");
+            debugDialog.text+="QRCodesVisualizer start\n";
             qrCodesObjectsList = new SortedDictionary<System.Guid, GameObject>();
 
             QRCodesManager.Instance.QRCodesTrackingStateChanged += Instance_QRCodesTrackingStateChanged;
@@ -59,6 +63,7 @@ namespace Microsoft.MixedReality.QuestMRTK3
         private void Instance_QRCodeAdded(object sender, QRCodeEventArgs<Microsoft.MixedReality.QR.QRCode> e)
         {
             Debug.Log("QRCodesVisualizer Instance_QRCodeAdded");
+            debugDialog.text += "Visualizer QRCode added code block\n";
 
             lock (pendingActions)
             {
@@ -69,6 +74,7 @@ namespace Microsoft.MixedReality.QuestMRTK3
         private void Instance_QRCodeUpdated(object sender, QRCodeEventArgs<Microsoft.MixedReality.QR.QRCode> e)
         {
             Debug.Log("QRCodesVisualizer Instance_QRCodeUpdated");
+            debugDialog.text += "Visualizer QRCode updated code block\n";
 
             lock (pendingActions)
             {
@@ -92,9 +98,11 @@ namespace Microsoft.MixedReality.QuestMRTK3
             {
                 while (pendingActions.Count > 0)
                 {
+                    debugDialog.text += "HandleEvents pending actions > 0: " + pendingActions.Count;
                     var action = pendingActions.Dequeue();
                     if (action.type == ActionData.Type.Added)
                     {
+                        debugDialog.text += "In the code block to instatiate visualisation for new QRCode\n";
                         GameObject qrCodeObject = Instantiate(qrCodePrefab, new Vector3(0, 0, 0), Quaternion.identity);
                         qrCodeObject.GetComponent<SpatialGraphNodeTracker>().Id = action.qrCode.SpatialGraphNodeId;
                         qrCodeObject.GetComponent<QRCode>().qrCode = action.qrCode;

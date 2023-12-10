@@ -26,6 +26,7 @@ Data\RuntimeInitializeOnLoads.json
 Data\ScriptingAssemblies.json
 Data\sharedassets0.assets
 Data\sharedassets0.assets.resS
+Data\sharedassets0.resource
 Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json
 Data\UnitySubsystems\UnityOpenXR\UnitySubsystemsManifest.json
 lib_burst_generated.dll

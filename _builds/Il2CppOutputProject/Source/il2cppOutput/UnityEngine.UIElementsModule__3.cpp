@@ -733,7 +733,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralB53AD544AA290FD91F1A6A89BC4C477FA13D67DC
 IL2CPP_EXTERN_C String_t* _stringLiteralB7951E2FB9C044754287C7C6DF6397451ACC5AC8;
 IL2CPP_EXTERN_C String_t* _stringLiteralBE0A31A6C4D3B145E7B1FA25CFACE595B88306DC;
 IL2CPP_EXTERN_C String_t* _stringLiteralBFCC6EE94F1B7AA05A04750903E25F93A7188AE0;
-IL2CPP_EXTERN_C String_t* _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB;
 IL2CPP_EXTERN_C String_t* _stringLiteralC7719AFD7956BFFDCF259C3B975D1173976ED394;
 IL2CPP_EXTERN_C String_t* _stringLiteralCB62B97E393533314D3C809D57CB62D3059C0EF3;
 IL2CPP_EXTERN_C String_t* _stringLiteralD01351D79959B7CF0E3DA810F747F70D1A2EBD3E;
@@ -745,7 +744,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralDF91AEE1E52ADFB5A9BAB4F407686F2F13C022DC
 IL2CPP_EXTERN_C String_t* _stringLiteralE633DA441A7457CF264DF82F7B1BA15F1A2A835B;
 IL2CPP_EXTERN_C String_t* _stringLiteralEE62291E0CE1B64BAB78F553473B97D70B9993D7;
 IL2CPP_EXTERN_C String_t* _stringLiteralF077DFE0EA0D87CC2B19BBE1BC0979E4DF9EF8BE;
-IL2CPP_EXTERN_C String_t* _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D;
 IL2CPP_EXTERN_C String_t* _stringLiteralF82E77163FA1DA3FC88318F036C4A14ABDF6C33F;
 IL2CPP_EXTERN_C String_t* _stringLiteralFA260FC853CB4AA8AF3AC7F64023DE48E0B01E64;
 IL2CPP_EXTERN_C String_t* _stringLiteralFA3AA2E631F449CB7D392A6386A444D7CF26BB95;
@@ -4812,9 +4810,7 @@ inline VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* BaseSlider_1_get
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline (float ___0_f, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Round_m8DB2F61CB73B9E71E54149290ABD5DC8A68890D1 (double ___0_value, int32_t ___1_digits, int32_t ___2_mode, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166 (String_t* __this, String_t* ___0_oldValue, String_t* ___1_newValue, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6 (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Single_TryParse_mFB8CC32F0016FBB6EFCB97953CF3515767EB6431 (String_t* ___0_s, int32_t ___1_style, RuntimeObject* ___2_provider, float* ___3_result, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UINumericFieldsUtils_TryConvertStringToFloat_mA9ABF76EE00A0166FC57CAF114494098857496CF (String_t* ___0_str, String_t* ___1_initialValueAsString, float* ___2_value, const RuntimeMethod* method) ;
 inline float BaseSlider_1_GetClosestPowerOfTen_m0CC67DCBCBC54C714614FB593230DB41BA91072B (float ___0_positiveNumber, const RuntimeMethod* method)
 {
 	return ((  float (*) (float, const RuntimeMethod*))BaseSlider_1_GetClosestPowerOfTen_m0CC67DCBCBC54C714614FB593230DB41BA91072B_gshared)(___0_positiveNumber, method);
@@ -4895,7 +4891,7 @@ inline int32_t BaseSlider_1_get_highValue_m8495FAE7CD3C549A3305320362618AE5C32CC
 	return ((  int32_t (*) (BaseSlider_1_tCD357038DC0A12750F4E032D975E8D9F2AA6CD95*, const RuntimeMethod*))BaseSlider_1_get_highValue_m8495FAE7CD3C549A3305320362618AE5C32CC1FC_gshared)(__this, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t NumericFieldDraggerUtility_CalculateIntDragSensitivity_m1B98B6FC83BA9B2234B93A578F253B01C45E7E22 (int64_t ___0_value, int64_t ___1_minValue, int64_t ___2_maxValue, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Int32_TryParse_mC928DE2FEC1C35ED5298BDDCA9868076E94B8A21 (String_t* ___0_s, int32_t* ___1_result, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UINumericFieldsUtils_TryConvertStringToInt_mDF1A8E926E81990C9A0C2FD0DBE040B16B733D46 (String_t* ___0_str, String_t* ___1_initialValueAsString, int32_t* ___2_value, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
 inline void BaseSlider_1_ComputeValueAndDirectionFromClick_mC7F102824CE2B9A191C74C1170A50C14A0AD0A10 (BaseSlider_1_tCD357038DC0A12750F4E032D975E8D9F2AA6CD95* __this, float ___0_sliderLength, float ___1_dragElementLength, float ___2_dragElementPos, float ___3_dragElementLastPos, const RuntimeMethod* method)
 {
@@ -5172,6 +5168,7 @@ inline String_t* TextValueField_1_get_formatString_m2E8A201F7EE1A7B9842E83AC94B8
 {
 	return ((  String_t* (*) (TextValueField_1_t689D69EBB8C75FA23DF0BE6CA6A112C069D6DEB4*, const RuntimeMethod*))TextValueField_1_get_formatString_m2E8A201F7EE1A7B9842E83AC94B8936640DFE211_gshared)(__this, method);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UInt32_ToString_m464396B0FE2115F3CEA38AEECDDB0FACC3AADADE (uint32_t* __this, String_t* ___0_format, RuntimeObject* ___1_provider, const RuntimeMethod* method) ;
 inline String_t* TextInputBase_get_originalText_m098B31D4B0B60AE6E66D0624C3EFB7A2502B9B20 (TextInputBase_t81D7FFAFEB2C97D442E7A82C81D3CD3FE841C27C* __this, const RuntimeMethod* method)
 {
@@ -6657,52 +6654,46 @@ IL_000b:
 		return L_4;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Slider_ParseStringToValue_m4A88C64E55238D935E33F2E0D328A940FF0C9881 (Slider_t5891706383A14955E3FAD68A79829F3234681652* __this, String_t* ___0_stringValue, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Slider_ParseStringToValue_m7FB105C0EFA1E90209581CA621A8184DDEE3635F (Slider_t5891706383A14955E3FAD68A79829F3234681652* __this, String_t* ___0_previousValue, String_t* ___1_newValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UINumericFieldsUtils_tE693B423F92FCBB283A8D3547A86800F1F7A2860_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
 	bool V_1 = false;
 	float V_2 = 0.0f;
 	{
-		String_t* L_0 = ___0_stringValue;
-		NullCheck(L_0);
-		String_t* L_1;
-		L_1 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_0, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, NULL);
-		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
-		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_2;
-		L_2 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
-		bool L_3;
-		L_3 = Single_TryParse_mFB8CC32F0016FBB6EFCB97953CF3515767EB6431(L_1, ((int32_t)167), L_2, (&V_0), NULL);
-		V_1 = L_3;
-		bool L_4 = V_1;
-		if (!L_4)
+		String_t* L_0 = ___1_newValue;
+		String_t* L_1 = ___0_previousValue;
+		il2cpp_codegen_runtime_class_init_inline(UINumericFieldsUtils_tE693B423F92FCBB283A8D3547A86800F1F7A2860_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = UINumericFieldsUtils_TryConvertStringToFloat_mA9ABF76EE00A0166FC57CAF114494098857496CF(L_0, L_1, (&V_0), NULL);
+		V_1 = L_2;
+		bool L_3 = V_1;
+		if (!L_3)
 		{
-			goto IL_002b;
+			goto IL_0012;
 		}
 	}
 	{
-		float L_5 = V_0;
-		V_2 = L_5;
-		goto IL_0034;
+		float L_4 = V_0;
+		V_2 = L_4;
+		goto IL_001a;
 	}
 
-IL_002b:
+IL_0012:
 	{
 		V_2 = (0.0f);
-		goto IL_0034;
+		goto IL_001a;
 	}
 
-IL_0034:
+IL_001a:
 	{
-		float L_6 = V_2;
-		return L_6;
+		float L_5 = V_2;
+		return L_5;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Slider_ComputeValueFromKey_mE1BE9FFC97CC50FCC3216DF0FF462E43877B94BD (Slider_t5891706383A14955E3FAD68A79829F3234681652* __this, int32_t ___0_sliderKey, bool ___1_isShift, const RuntimeMethod* method) 
@@ -7293,38 +7284,46 @@ IL_000f:
 		return L_4;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SliderInt_ParseStringToValue_m28875A3D36BA6F0B96289AC3C6076AFE41BCF202 (SliderInt_t0D262A6FB485F98842373C83ACB08D9596D8DDA1* __this, String_t* ___0_stringValue, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SliderInt_ParseStringToValue_m5227F5266CF18141C7BEEB37728639A58B0A67BD (SliderInt_t0D262A6FB485F98842373C83ACB08D9596D8DDA1* __this, String_t* ___0_previousValue, String_t* ___1_newValue, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UINumericFieldsUtils_tE693B423F92FCBB283A8D3547A86800F1F7A2860_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	int32_t V_2 = 0;
 	{
-		String_t* L_0 = ___0_stringValue;
-		bool L_1;
-		L_1 = Int32_TryParse_mC928DE2FEC1C35ED5298BDDCA9868076E94B8A21(L_0, (&V_0), NULL);
-		V_1 = L_1;
-		bool L_2 = V_1;
-		if (!L_2)
+		String_t* L_0 = ___1_newValue;
+		String_t* L_1 = ___0_previousValue;
+		il2cpp_codegen_runtime_class_init_inline(UINumericFieldsUtils_tE693B423F92FCBB283A8D3547A86800F1F7A2860_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = UINumericFieldsUtils_TryConvertStringToInt_mDF1A8E926E81990C9A0C2FD0DBE040B16B733D46(L_0, L_1, (&V_0), NULL);
+		V_1 = L_2;
+		bool L_3 = V_1;
+		if (!L_3)
 		{
 			goto IL_0012;
 		}
 	}
 	{
-		int32_t L_3 = V_0;
-		V_2 = L_3;
-		goto IL_0017;
+		int32_t L_4 = V_0;
+		V_2 = L_4;
+		goto IL_0016;
 	}
 
 IL_0012:
 	{
 		V_2 = 0;
-		goto IL_0017;
+		goto IL_0016;
 	}
 
-IL_0017:
+IL_0016:
 	{
-		int32_t L_4 = V_2;
-		return L_4;
+		int32_t L_5 = V_2;
+		return L_5;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SliderInt_ComputeValueAndDirectionFromClick_mA4EA06DACA4D50B46C4E6BAFE4ED3C77FD41318D (SliderInt_t0D262A6FB485F98842373C83ACB08D9596D8DDA1* __this, float ___0_sliderLength, float ___1_dragElementLength, float ___2_dragElementPos, float ___3_dragElementLastPos, const RuntimeMethod* method) 

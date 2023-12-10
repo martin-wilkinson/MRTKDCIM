@@ -14506,7 +14506,7 @@ IL_01b2:
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_200 = L_199->___mesh;
 		int32_t L_201 = __this->___U3CmaterialIndexU3E5__4;
 		NullCheck(L_198);
-		VirtualActionInvoker2< Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*, int32_t >::Invoke(106, L_198, L_200, L_201);
+		VirtualActionInvoker2< Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*, int32_t >::Invoke(107, L_198, L_200, L_201);
 		int32_t L_202 = __this->___framerate;
 		if ((((int32_t)L_202) <= ((int32_t)0)))
 		{
@@ -18285,7 +18285,7 @@ IL_001d:
 		L_9 = TMP_SubMesh_get_textComponent_m0432A85ED37E13DB37CE87B0A09C7C9B5C1369D6(__this, NULL);
 		NullCheck(L_9);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_10;
-		L_10 = VirtualFuncInvoker0< Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* >::Invoke(66, L_9);
+		L_10 = VirtualFuncInvoker0< Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* >::Invoke(67, L_9);
 		il2cpp_codegen_runtime_class_init_inline(ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var);
 		String_t* L_11 = ((ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_StaticFields*)il2cpp_codegen_static_fields_for(ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var))->___ShaderTag_CullMode;
 		NullCheck(L_10);
@@ -18841,8 +18841,8 @@ IL_000f:
 IL_0021:
 	{
 		((MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E*)__this)->___m_ShouldRecalculateStencil = (bool)1;
-		VirtualActionInvoker0::Invoke(62, __this);
 		VirtualActionInvoker0::Invoke(63, __this);
+		VirtualActionInvoker0::Invoke(64, __this);
 		return;
 	}
 }
@@ -18943,7 +18943,7 @@ IL_0032:
 IL_0052:
 	{
 		__this->___m_isRegisteredForEvents = (bool)0;
-		VirtualActionInvoker0::Invoke(62, __this);
+		VirtualActionInvoker0::Invoke(63, __this);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_9 = __this->___m_TextComponent;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -18984,8 +18984,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_SubMeshUI_OnTransformParentChanged_m
 IL_0009:
 	{
 		((MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E*)__this)->___m_ShouldRecalculateStencil = (bool)1;
-		VirtualActionInvoker0::Invoke(62, __this);
 		VirtualActionInvoker0::Invoke(63, __this);
+		VirtualActionInvoker0::Invoke(64, __this);
 		return;
 	}
 }
@@ -19390,7 +19390,7 @@ IL_000f:
 		L_5 = TMP_SubMeshUI_get_textComponent_m899050C714DCF7C38409E40ACED46128426E5981(__this, NULL);
 		NullCheck(L_5);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6;
-		L_6 = VirtualFuncInvoker0< Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* >::Invoke(66, L_5);
+		L_6 = VirtualFuncInvoker0< Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* >::Invoke(67, L_5);
 		il2cpp_codegen_runtime_class_init_inline(ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var);
 		String_t* L_7 = ((ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_StaticFields*)il2cpp_codegen_static_fields_for(ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var))->___ShaderTag_CullMode;
 		NullCheck(L_6);
@@ -20167,7 +20167,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_TextInfo__ctor_m3F285FBF2EA3C9CF7B75
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_8 = ___0_textComponent;
 		NullCheck(L_8);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_9;
-		L_9 = VirtualFuncInvoker0< Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* >::Invoke(76, L_8);
+		L_9 = VirtualFuncInvoker0< Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* >::Invoke(77, L_8);
 		((L_7)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->___mesh = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&((L_7)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->___mesh), (void*)L_9);
 		__this->___materialCount = 1;

@@ -31400,8 +31400,8 @@
         "fy9q/zmnil9b7ungs.obj",
         "fy9q/zohu1b8qb5dn.obj",
         "fy9q/zqrez9id28mz.obj",
-        "D:/Unity/2022.3.11f1/Editor/Data/PlaybackEngines/MetroSupport/Players/UAP/il2cpp/ARM64/Release/baselib.dll",
-        "D:/Unity/2022.3.11f1/Editor/Data/PlaybackEngines/MetroSupport/Players/UAP/il2cpp/ARM64/Release/baselib.dll.lib",
+        "D:/Unity/2022.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Players/UAP/il2cpp/ARM64/Release/baselib.dll",
+        "D:/Unity/2022.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Players/UAP/il2cpp/ARM64/Release/baselib.dll.lib",
         "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/arm64/link.exe",
         "v9py/GameAssembly.dll.dummy.def",
         "D:/Unity/Projects/Quest3 MRTK/_builds/build/obj/il2cppOutputProject/ARM64/Release/buildstate/artifacts/rsp/431732582438615406.rsp"
@@ -32210,7 +32210,7 @@
       "DisplayName": "Copying baselib.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/2022.3.11f1/Editor/Data/PlaybackEngines/MetroSupport/Players/UAP/il2cpp/ARM64/Release/baselib.dll"
+        "D:/Unity/2022.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Players/UAP/il2cpp/ARM64/Release/baselib.dll"
       ],
       "Outputs": [
         "D:/Unity/Projects/Quest3 MRTK/_builds/build/bin/ARM64/Release/baselib.dll"

@@ -4016,7 +4016,7 @@ IL_000f:
 		TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* L_3 = ___0_value;
 		__this->___m_fontAsset = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_fontAsset), (void*)L_3);
-		VirtualActionInvoker0::Invoke(88, __this);
+		VirtualActionInvoker0::Invoke(89, __this);
 		__this->___m_havePropertiesChanged = (bool)1;
 		VirtualActionInvoker0::Invoke(28, __this);
 		VirtualActionInvoker0::Invoke(27, __this);
@@ -4056,7 +4056,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Text_set_fontSharedMaterial_m4C3E1FA
 IL_000f:
 	{
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_value;
-		VirtualActionInvoker1< Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* >::Invoke(89, __this, L_3);
+		VirtualActionInvoker1< Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* >::Invoke(90, __this, L_3);
 		__this->___m_havePropertiesChanged = (bool)1;
 		VirtualActionInvoker0::Invoke(28, __this);
 		VirtualActionInvoker0::Invoke(29, __this);
@@ -4067,7 +4067,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB
 {
 	{
 		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_0;
-		L_0 = VirtualFuncInvoker0< MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* >::Invoke(92, __this);
+		L_0 = VirtualFuncInvoker0< MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* >::Invoke(93, __this);
 		return L_0;
 	}
 }
@@ -4075,7 +4075,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Text_set_fontSharedMaterials_mE82D24
 {
 	{
 		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_0 = ___0_value;
-		VirtualActionInvoker1< MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* >::Invoke(93, __this, L_0);
+		VirtualActionInvoker1< MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* >::Invoke(94, __this, L_0);
 		__this->___m_havePropertiesChanged = (bool)1;
 		VirtualActionInvoker0::Invoke(28, __this);
 		VirtualActionInvoker0::Invoke(29, __this);
@@ -4087,7 +4087,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 	{
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___m_sharedMaterial;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1;
-		L_1 = VirtualFuncInvoker1< Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* >::Invoke(90, __this, L_0);
+		L_1 = VirtualFuncInvoker1< Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* >::Invoke(91, __this, L_0);
 		return L_1;
 	}
 }
@@ -4133,7 +4133,7 @@ IL_0022:
 		__this->___m_sharedMaterial = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_sharedMaterial), (void*)L_6);
 		float L_7;
-		L_7 = VirtualFuncInvoker0< float >::Invoke(102, __this);
+		L_7 = VirtualFuncInvoker0< float >::Invoke(103, __this);
 		__this->___m_padding = L_7;
 		__this->___m_havePropertiesChanged = (bool)1;
 		VirtualActionInvoker0::Invoke(28, __this);
@@ -4146,7 +4146,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB
 	{
 		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_0 = __this->___m_fontSharedMaterials;
 		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_1;
-		L_1 = VirtualFuncInvoker1< MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D*, MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* >::Invoke(94, __this, L_0);
+		L_1 = VirtualFuncInvoker1< MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D*, MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* >::Invoke(95, __this, L_0);
 		return L_1;
 	}
 }
@@ -4154,7 +4154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Text_set_fontMaterials_m0DC39367F869
 {
 	{
 		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_0 = ___0_value;
-		VirtualActionInvoker1< MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* >::Invoke(93, __this, L_0);
+		VirtualActionInvoker1< MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* >::Invoke(94, __this, L_0);
 		__this->___m_havePropertiesChanged = (bool)1;
 		VirtualActionInvoker0::Invoke(28, __this);
 		VirtualActionInvoker0::Invoke(29, __this);
@@ -4496,7 +4496,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Text_set_faceColor_m5E9FCC324958ABD2
 IL_000f:
 	{
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3 = ___0_value;
-		VirtualActionInvoker1< Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(96, __this, L_3);
+		VirtualActionInvoker1< Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(97, __this, L_3);
 		__this->___m_havePropertiesChanged = (bool)1;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_4 = ___0_value;
 		__this->___m_faceColor = L_4;
@@ -4563,7 +4563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Text_set_outlineColor_mBEFF42BF9AB15
 IL_000f:
 	{
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3 = ___0_value;
-		VirtualActionInvoker1< Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(97, __this, L_3);
+		VirtualActionInvoker1< Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B >::Invoke(98, __this, L_3);
 		__this->___m_havePropertiesChanged = (bool)1;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_4 = ___0_value;
 		__this->___m_outlineColor = L_4;
@@ -4625,7 +4625,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Text_set_outlineWidth_m33ADF665CB2D3
 IL_000a:
 	{
 		float L_2 = ___0_value;
-		VirtualActionInvoker1< float >::Invoke(98, __this, L_2);
+		VirtualActionInvoker1< float >::Invoke(99, __this, L_2);
 		__this->___m_havePropertiesChanged = (bool)1;
 		float L_3 = ___0_value;
 		__this->___m_outlineWidth = L_3;
@@ -5478,7 +5478,7 @@ IL_000a:
 		__this->___m_havePropertiesChanged = (bool)1;
 		bool L_2 = ___0_value;
 		__this->___m_enableExtraPadding = L_2;
-		VirtualActionInvoker0::Invoke(110, __this);
+		VirtualActionInvoker0::Invoke(111, __this);
 		VirtualActionInvoker0::Invoke(28, __this);
 		return;
 	}
@@ -5570,7 +5570,7 @@ IL_000a:
 	{
 		bool L_2 = ___0_value;
 		__this->___m_isOverlay = L_2;
-		VirtualActionInvoker0::Invoke(99, __this);
+		VirtualActionInvoker0::Invoke(100, __this);
 		__this->___m_havePropertiesChanged = (bool)1;
 		VirtualActionInvoker0::Invoke(28, __this);
 		return;
@@ -5631,7 +5631,7 @@ IL_000a:
 	{
 		bool L_2 = ___0_value;
 		__this->___m_isCullingEnabled = L_2;
-		VirtualActionInvoker0::Invoke(100, __this);
+		VirtualActionInvoker0::Invoke(101, __this);
 		__this->___m_havePropertiesChanged = (bool)1;
 		return;
 	}
@@ -6062,7 +6062,7 @@ IL_000f:
 	{
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_3 = ___0_value;
 		__this->___m_margin = L_3;
-		VirtualActionInvoker0::Invoke(118, __this);
+		VirtualActionInvoker0::Invoke(119, __this);
 		__this->___m_havePropertiesChanged = (bool)1;
 		VirtualActionInvoker0::Invoke(28, __this);
 		return;
@@ -6268,7 +6268,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD3
 IL_0018:
 	{
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_3;
-		L_3 = VirtualFuncInvoker0< Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 >::Invoke(115, __this);
+		L_3 = VirtualFuncInvoker0< Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 >::Invoke(116, __this);
 		return L_3;
 	}
 }
@@ -7041,7 +7041,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Text_CrossFadeColor_mAB054E0720A156F
 		float L_5 = ___1_duration;
 		bool L_6 = ___2_ignoreTimeScale;
 		bool L_7 = ___3_useAlpha;
-		VirtualActionInvoker4< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F, float, bool, bool >::Invoke(111, __this, L_4, L_5, L_6, L_7);
+		VirtualActionInvoker4< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F, float, bool, bool >::Invoke(112, __this, L_4, L_5, L_6, L_7);
 		return;
 	}
 }
@@ -7055,7 +7055,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Text_CrossFadeAlpha_mF4C9347458127DB
 		float L_3 = ___0_alpha;
 		float L_4 = ___1_duration;
 		bool L_5 = ___2_ignoreTimeScale;
-		VirtualActionInvoker3< float, float, bool >::Invoke(112, __this, L_3, L_4, L_5);
+		VirtualActionInvoker3< float, float, bool >::Invoke(113, __this, L_3, L_4, L_5);
 		return;
 	}
 }
@@ -7151,7 +7151,7 @@ IL_004c:
 	{
 		UnicodeCharU5BU5D_t67F27D09F8EB28D2C42DFF16FE60054F157012F5* L_7 = __this->___m_TextProcessingArray;
 		int32_t L_8;
-		L_8 = VirtualFuncInvoker1< int32_t, UnicodeCharU5BU5D_t67F27D09F8EB28D2C42DFF16FE60054F157012F5* >::Invoke(113, __this, L_7);
+		L_8 = VirtualFuncInvoker1< int32_t, UnicodeCharU5BU5D_t67F27D09F8EB28D2C42DFF16FE60054F157012F5* >::Invoke(114, __this, L_7);
 		return;
 	}
 }
@@ -12747,7 +12747,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		TMP_Text_SetTextInternal_mE5AAC38C055046B9EE3228640DAFA627C5BDF924(__this, L_0, NULL);
 		UnicodeCharU5BU5D_t67F27D09F8EB28D2C42DFF16FE60054F157012F5* L_1 = __this->___m_TextProcessingArray;
 		int32_t L_2;
-		L_2 = VirtualFuncInvoker1< int32_t, UnicodeCharU5BU5D_t67F27D09F8EB28D2C42DFF16FE60054F157012F5* >::Invoke(113, __this, L_1);
+		L_2 = VirtualFuncInvoker1< int32_t, UnicodeCharU5BU5D_t67F27D09F8EB28D2C42DFF16FE60054F157012F5* >::Invoke(114, __this, L_1);
 		il2cpp_codegen_runtime_class_init_inline(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var))->___k_LargePositiveVector2;
 		V_0 = L_3;
@@ -12776,7 +12776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		TMP_Text_SetTextInternal_mE5AAC38C055046B9EE3228640DAFA627C5BDF924(__this, L_0, NULL);
 		UnicodeCharU5BU5D_t67F27D09F8EB28D2C42DFF16FE60054F157012F5* L_1 = __this->___m_TextProcessingArray;
 		int32_t L_2;
-		L_2 = VirtualFuncInvoker1< int32_t, UnicodeCharU5BU5D_t67F27D09F8EB28D2C42DFF16FE60054F157012F5* >::Invoke(113, __this, L_1);
+		L_2 = VirtualFuncInvoker1< int32_t, UnicodeCharU5BU5D_t67F27D09F8EB28D2C42DFF16FE60054F157012F5* >::Invoke(114, __this, L_1);
 		float L_3 = ___1_width;
 		float L_4 = ___2_height;
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_0), L_3, L_4, NULL);
@@ -12871,7 +12871,7 @@ IL_0038:
 		__this->___m_AutoSizeIterationCount = 0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10 = V_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11;
-		L_11 = VirtualFuncInvoker4< Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, float*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, bool, bool >::Invoke(114, __this, (&V_0), L_10, (bool)0, (bool)0);
+		L_11 = VirtualFuncInvoker4< Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, float*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, bool, bool >::Invoke(115, __this, (&V_0), L_10, (bool)0, (bool)0);
 		float L_12 = L_11.___x;
 		__this->___m_isPreferredWidthDirty = (bool)0;
 		return L_12;
@@ -12911,7 +12911,7 @@ IL_0016:
 		__this->___m_AutoSizeIterationCount = 0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = ___0_margin;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
-		L_6 = VirtualFuncInvoker4< Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, float*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, bool, bool >::Invoke(114, __this, (&V_0), L_5, (bool)0, (bool)0);
+		L_6 = VirtualFuncInvoker4< Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, float*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, bool, bool >::Invoke(115, __this, (&V_0), L_5, (bool)0, (bool)0);
 		float L_7 = L_6.___x;
 		return L_7;
 	}
@@ -13032,7 +13032,7 @@ IL_00a5:
 		bool L_14 = __this->___m_enableAutoSizing;
 		bool L_15 = __this->___m_enableWordWrapping;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16;
-		L_16 = VirtualFuncInvoker4< Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, float*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, bool, bool >::Invoke(114, __this, (&V_0), L_13, L_14, L_15);
+		L_16 = VirtualFuncInvoker4< Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, float*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, bool, bool >::Invoke(115, __this, (&V_0), L_13, L_14, L_15);
 		float L_17 = L_16.___y;
 		V_2 = L_17;
 		int32_t L_18 = __this->___m_AutoSizeIterationCount;
@@ -13097,7 +13097,7 @@ IL_0050:
 		bool L_6 = __this->___m_enableAutoSizing;
 		bool L_7 = __this->___m_enableWordWrapping;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
-		L_8 = VirtualFuncInvoker4< Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, float*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, bool, bool >::Invoke(114, __this, (&V_0), L_5, L_6, L_7);
+		L_8 = VirtualFuncInvoker4< Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, float*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, bool, bool >::Invoke(115, __this, (&V_0), L_5, L_6, L_7);
 		float L_9 = L_8.___y;
 		V_1 = L_9;
 		int32_t L_10 = __this->___m_AutoSizeIterationCount;
@@ -22217,7 +22217,7 @@ IL_0018:
 		}
 	}
 	{
-		VirtualActionInvoker1< bool >::Invoke(75, __this, (bool)1);
+		VirtualActionInvoker1< bool >::Invoke(76, __this, (bool)1);
 		goto IL_00af;
 	}
 
@@ -23256,7 +23256,7 @@ IL_0021:
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_7 = ___0_targetTextComponent;
 		String_t* L_8 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty;
 		NullCheck(L_7);
-		VirtualActionInvoker1< String_t* >::Invoke(65, L_7, L_8);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_7, L_8);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_9 = ___0_targetTextComponent;
 		NullCheck(L_9);
 		TMP_Text_set_firstVisibleCharacter_m343804C8FF610EB13CCB14E8D54C889BC356AD53(L_9, 0, NULL);

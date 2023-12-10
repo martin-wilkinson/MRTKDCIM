@@ -9973,7 +9973,7 @@ IL_0005:
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_2 = L_1->___Label;
 		String_t* L_3 = ___0_label;
 		NullCheck(L_2);
-		VirtualActionInvoker1< String_t* >::Invoke(65, L_2, L_3);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, L_3);
 		Action_1_t7ADABA7FDBED70614E8CF833DC257D608D572EEF* L_4 = ___1_action;
 		Action_1_t7ADABA7FDBED70614E8CF833DC257D608D572EEF* L_5 = L_4;
 		if (L_5)
@@ -10051,7 +10051,7 @@ IL_0005:
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_2 = L_1->___Label;
 		String_t* L_3 = ___0_label;
 		NullCheck(L_2);
-		VirtualActionInvoker1< String_t* >::Invoke(65, L_2, L_3);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, L_3);
 		Action_1_t7ADABA7FDBED70614E8CF833DC257D608D572EEF* L_4 = ___1_action;
 		Action_1_t7ADABA7FDBED70614E8CF833DC257D608D572EEF* L_5 = L_4;
 		if (L_5)
@@ -10129,7 +10129,7 @@ IL_0005:
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_2 = L_1->___Label;
 		String_t* L_3 = ___0_label;
 		NullCheck(L_2);
-		VirtualActionInvoker1< String_t* >::Invoke(65, L_2, L_3);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, L_3);
 		Action_1_t7ADABA7FDBED70614E8CF833DC257D608D572EEF* L_4 = ___1_action;
 		Action_1_t7ADABA7FDBED70614E8CF833DC257D608D572EEF* L_5 = L_4;
 		if (L_5)
@@ -10331,7 +10331,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dialog_Show_mCFDA34D231DBC1799
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_3 = __this->___headerText;
 		String_t* L_4 = __this->___header;
 		NullCheck(L_3);
-		VirtualActionInvoker1< String_t* >::Invoke(65, L_3, L_4);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_3, L_4);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5 = __this->___bodyText;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
@@ -10342,7 +10342,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dialog_Show_mCFDA34D231DBC1799
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_8 = __this->___bodyText;
 		String_t* L_9 = __this->___body;
 		NullCheck(L_8);
-		VirtualActionInvoker1< String_t* >::Invoke(65, L_8, L_9);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_8, L_9);
 		DialogButton_tB71CE45D7022CFA94EF1A8381B3E3F47470907CB* L_10 = (DialogButton_tB71CE45D7022CFA94EF1A8381B3E3F47470907CB*)(&__this->___positiveButton);
 		StatefulInteractable_t921CA4D895DE82D3DC0FDC90AFC041DBA758F0D3* L_11 = L_10->___Interactable;
 		NullCheck(L_11);
@@ -10492,7 +10492,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dialog_U3CAwakeU3Eb__22_0_m95686AB435CC6
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_4 = L_3->___Label;
 		NullCheck(L_4);
 		String_t* L_5;
-		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(64, L_4);
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_4);
 		NullCheck(L_2);
 		DialogButtonEventArgs_set_ButtonText_mFA43B53EC1603BD11360E6134BF091E9ACB8D912_inline(L_2, L_5, NULL);
 		DialogButtonEventArgs_t472B6CFACA8717B018E87470FCCE87F74372768A* L_6 = L_2;
@@ -10530,7 +10530,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dialog_U3CAwakeU3Eb__22_1_mC39B903ADF909
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_4 = L_3->___Label;
 		NullCheck(L_4);
 		String_t* L_5;
-		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(64, L_4);
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_4);
 		NullCheck(L_2);
 		DialogButtonEventArgs_set_ButtonText_mFA43B53EC1603BD11360E6134BF091E9ACB8D912_inline(L_2, L_5, NULL);
 		DialogButtonEventArgs_t472B6CFACA8717B018E87470FCCE87F74372768A* L_6 = L_2;
@@ -10568,7 +10568,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dialog_U3CAwakeU3Eb__22_2_mF4A3BE61FD9F0
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_4 = L_3->___Label;
 		NullCheck(L_4);
 		String_t* L_5;
-		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(64, L_4);
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_4);
 		NullCheck(L_2);
 		DialogButtonEventArgs_set_ButtonText_mFA43B53EC1603BD11360E6134BF091E9ACB8D912_inline(L_2, L_5, NULL);
 		DialogButtonEventArgs_t472B6CFACA8717B018E87470FCCE87F74372768A* L_6 = L_2;
@@ -11888,7 +11888,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FontIconSelector_SetIcon_mA94C73B7087D93
 		String_t* L_10;
 		L_10 = FontIconSet_ConvertUnicodeToHexString_m9C139A7BBE046E3D887F3DAB4B116AF969E59EBE(L_9, NULL);
 		NullCheck(L_8);
-		VirtualActionInvoker1< String_t* >::Invoke(65, L_8, L_10);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_8, L_10);
 	}
 
 IL_0044:
@@ -14544,7 +14544,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KeyboardPreview_set_Text_m34C629E377FDDC
 		L_6 = KeyboardPreview_get_PreviewText_mC66E1505AA1CEF056E86E2EFEB95581B8CA7F77E_inline(__this, NULL);
 		String_t* L_7 = __this->___text;
 		NullCheck(L_6);
-		VirtualActionInvoker1< String_t* >::Invoke(65, L_6, L_7);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_6, L_7);
 	}
 
 IL_0034:
@@ -14740,7 +14740,7 @@ IL_001d:
 		L_5 = KeyboardPreview_get_Text_mC605B8B794830D843D3CF40C5F40A0AA9487514F_inline(__this, NULL);
 		NullCheck(L_4);
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_6;
-		L_6 = VirtualFuncInvoker1< TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D*, String_t* >::Invoke(117, L_4, L_5);
+		L_6 = VirtualFuncInvoker1< TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D*, String_t* >::Invoke(118, L_4, L_5);
 		V_0 = L_6;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_7 = V_0;
 		NullCheck(L_7);
@@ -14940,7 +14940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KeyboardPreview_UpdateCaret_mF74BBADC075
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_10 = L_9->___textComponent;
 		NullCheck(L_10);
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_11;
-		L_11 = VirtualFuncInvoker0< Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 >::Invoke(72, L_10);
+		L_11 = VirtualFuncInvoker0< Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 >::Invoke(73, L_10);
 		float L_12 = L_11.___x;
 		V_2 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_7, L_8)), L_12));
 		float L_13 = V_0;
@@ -14949,7 +14949,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KeyboardPreview_UpdateCaret_mF74BBADC075
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_15 = L_14->___textComponent;
 		NullCheck(L_15);
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_16;
-		L_16 = VirtualFuncInvoker0< Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 >::Invoke(72, L_15);
+		L_16 = VirtualFuncInvoker0< Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 >::Invoke(73, L_15);
 		float L_17 = L_16.___x;
 		V_3 = ((float)il2cpp_codegen_add(L_13, L_17));
 		goto IL_0076;
@@ -14965,7 +14965,7 @@ IL_004b:
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_22 = L_21->___textComponent;
 		NullCheck(L_22);
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_23;
-		L_23 = VirtualFuncInvoker0< Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 >::Invoke(72, L_22);
+		L_23 = VirtualFuncInvoker0< Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 >::Invoke(73, L_22);
 		float L_24 = L_23.___x;
 		V_2 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_19, L_20)), L_24));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_25 = ___0_textInfo;
@@ -14973,7 +14973,7 @@ IL_004b:
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_26 = L_25->___textComponent;
 		NullCheck(L_26);
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_27;
-		L_27 = VirtualFuncInvoker0< Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 >::Invoke(72, L_26);
+		L_27 = VirtualFuncInvoker0< Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 >::Invoke(73, L_26);
 		float L_28 = L_27.___x;
 		V_3 = L_28;
 	}
@@ -15085,7 +15085,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KeyboardPreview_ResetCaret_mD131C9613F81
 		L_10 = KeyboardPreview_get_PreviewText_mC66E1505AA1CEF056E86E2EFEB95581B8CA7F77E_inline(__this, NULL);
 		NullCheck(L_10);
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_11;
-		L_11 = VirtualFuncInvoker0< Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 >::Invoke(72, L_10);
+		L_11 = VirtualFuncInvoker0< Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 >::Invoke(73, L_10);
 		float L_12 = L_11.___z;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13;
 		memset((&L_13), 0, sizeof(L_13));
@@ -15103,7 +15103,7 @@ IL_0066:
 		L_15 = KeyboardPreview_get_PreviewText_mC66E1505AA1CEF056E86E2EFEB95581B8CA7F77E_inline(__this, NULL);
 		NullCheck(L_15);
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_16;
-		L_16 = VirtualFuncInvoker0< Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 >::Invoke(72, L_15);
+		L_16 = VirtualFuncInvoker0< Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 >::Invoke(73, L_15);
 		float L_17 = L_16.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18;
 		memset((&L_18), 0, sizeof(L_18));
@@ -17099,7 +17099,7 @@ IL_0080:
 		String_t* L_29;
 		L_29 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral5B96947BB09A57BCB9D2F54C91DFC14475700CF4, L_28, _stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D, NULL);
 		NullCheck(L_27);
-		VirtualActionInvoker1< String_t* >::Invoke(65, L_27, L_29);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_27, L_29);
 	}
 
 IL_00b9:
@@ -25504,7 +25504,7 @@ IL_004d:
 IL_0058:
 	{
 		NullCheck(G_B4_1);
-		VirtualActionInvoker1< String_t* >::Invoke(65, G_B4_1, G_B4_0);
+		VirtualActionInvoker1< String_t* >::Invoke(66, G_B4_1, G_B4_0);
 	}
 
 IL_005d:
@@ -26674,7 +26674,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DialogShell_SetTitleAndMessage_m9CA2A422
 		String_t* L_4;
 		L_4 = DialogProperty_get_Title_m1890116F1626B0DFBB0E967CA4743B614046BCEB_inline(L_3, NULL);
 		NullCheck(L_2);
-		VirtualActionInvoker1< String_t* >::Invoke(65, L_2, L_4);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, L_4);
 	}
 
 IL_0024:
@@ -26696,7 +26696,7 @@ IL_0024:
 		String_t* L_9;
 		L_9 = DialogProperty_get_Message_mDE7312B985FA1B7C5B5C0FCE5D474FCE9EBE61D2_inline(L_8, NULL);
 		NullCheck(L_7);
-		VirtualActionInvoker1< String_t* >::Invoke(65, L_7, L_9);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_7, L_9);
 	}
 
 IL_0048:

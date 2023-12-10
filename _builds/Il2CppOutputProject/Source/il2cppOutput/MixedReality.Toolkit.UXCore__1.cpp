@@ -7428,7 +7428,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NonNativeValueKey_set_CurrentValue_m2D24
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_3 = __this->___textMeshProText;
 		String_t* L_4 = __this->___currentValue;
 		NullCheck(L_3);
-		VirtualActionInvoker1< String_t* >::Invoke(65, L_3, L_4);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_3, L_4);
 	}
 
 IL_0026:
@@ -7614,7 +7614,7 @@ IL_001a:
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5 = __this->___textMeshProText;
 		String_t* L_6 = __this->___defaultValue;
 		NullCheck(L_5);
-		VirtualActionInvoker1< String_t* >::Invoke(65, L_5, L_6);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_5, L_6);
 	}
 
 IL_0039:

@@ -28,10 +28,10 @@
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\build\bin\ARM64\Release\Quest3 MRTK.exe">
       <PackagePath>Quest3 MRTK.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Unity\2022.3.11f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\UnityPlayer.winmd">
+    <AppxPackagedFile Include="D:\Unity\2022.3.13f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\UnityPlayer.winmd">
       <PackagePath>UnityPlayer.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Unity\2022.3.11f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\UnityPlayer.dll">
+    <AppxPackagedFile Include="D:\Unity\2022.3.13f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\UnityPlayer.dll">
       <PackagePath>UnityPlayer.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\build\bin\ARM64\Release\Quest3_MRTK.winmd">
@@ -131,6 +131,9 @@
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\Data\UnitySubsystems\UnityOpenXR\UnitySubsystemsManifest.json">
       <PackagePath>Data\UnitySubsystems\UnityOpenXR\UnitySubsystemsManifest.json</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\Data\sharedassets0.resource">
+      <PackagePath>Data\sharedassets0.resource</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\UnityOpenXR.dll">
       <PackagePath>UnityOpenXR.dll</PackagePath>
     </AppxPackagedFile>
@@ -149,7 +152,7 @@
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\build\bin\ARM64\Release\GameAssembly.dll">
       <PackagePath>GameAssembly.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Unity\2022.3.11f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\baselib.dll">
+    <AppxPackagedFile Include="D:\Unity\2022.3.13f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\baselib.dll">
       <PackagePath>baselib.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\build\bin\ARM64\Release\resources.pri">

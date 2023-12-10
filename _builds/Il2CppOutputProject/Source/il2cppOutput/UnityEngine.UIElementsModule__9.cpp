@@ -4804,6 +4804,7 @@ struct RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B
 	int32_t ___bottomSlice;
 	float ___sliceScale;
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___spriteGeomRect;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___rectInset;
 	ColorPage_t7C2B8995DE8D27CED5E55F7BFE4E6C70C971FAE0 ___colorPage;
 	int32_t ___meshFlags;
 };
@@ -4835,6 +4836,7 @@ struct RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B_marshaled_pinvo
 	int32_t ___bottomSlice;
 	float ___sliceScale;
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___spriteGeomRect;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___rectInset;
 	ColorPage_t7C2B8995DE8D27CED5E55F7BFE4E6C70C971FAE0_marshaled_pinvoke ___colorPage;
 	int32_t ___meshFlags;
 };
@@ -4866,6 +4868,7 @@ struct RectangleParams_t0B5A63548DC33EE252AF81E242B719118C235A4B_marshaled_com
 	int32_t ___bottomSlice;
 	float ___sliceScale;
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___spriteGeomRect;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___rectInset;
 	ColorPage_t7C2B8995DE8D27CED5E55F7BFE4E6C70C971FAE0_marshaled_com ___colorPage;
 	int32_t ___meshFlags;
 };

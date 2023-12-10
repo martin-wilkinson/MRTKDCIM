@@ -4382,6 +4382,7 @@ struct XRRayInteractor_t0B25C1D5A938B199A71908E189AB351B43DA4C76  : public XRBas
 	bool ___m_AutoDeselect;
 	float ___m_TimeToAutoDeselect;
 	bool ___m_EnableUIInteraction;
+	bool ___m_BlockUIOnInteractableSelection;
 	bool ___m_AllowAnchorControl;
 	bool ___m_UseForceGrab;
 	float ___m_RotateSpeed;

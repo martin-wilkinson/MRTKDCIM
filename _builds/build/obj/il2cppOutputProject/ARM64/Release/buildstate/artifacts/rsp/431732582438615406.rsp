@@ -752,6 +752,6 @@
 /NODEFAULTLIB:ole32.lib
 /NODEFAULTLIB:kernel32.lib
 WindowsApp.lib
-"D:\Unity\2022.3.11f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\baselib.dll.lib"
+"D:\Unity\2022.3.13f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\baselib.dll.lib"
 /IGNORE:4104
 /IGNORE:4206

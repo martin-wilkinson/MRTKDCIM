@@ -61,7 +61,7 @@ Library: D:\Unity\Projects\Quest3 MRTK\Temp\BurstOutput\Plugins\ARM\lib_burst_ge
 --assembly-defines=UnityEngine;
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=D:\Unity\Projects\Quest3 MRTK\Temp\Burst
---key-folder=D:/Unity/2022.3.11f1/Editor/Data/PlaybackEngines/MetroSupport
+--key-folder=D:/Unity/2022.3.13f1/Editor/Data/PlaybackEngines/MetroSupport
 --decode-folder=D:\Unity\Projects\Quest3 MRTK\Library\Burst
 --output=D:\Unity\Projects\Quest3 MRTK\Temp\BurstOutput\Plugins\ARM\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/

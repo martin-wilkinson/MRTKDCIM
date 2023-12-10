@@ -14604,6 +14604,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SerializedVirtualizationData_t8EA4D4340BC124E
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VerticalVirtualizationController_1_get_firstVisibleIndex_m42843C9658F41E32ED1ADC19C8FC6C9061FB6423_gshared (VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345* __this, const RuntimeMethod* method) 
 {
+	int32_t G_B2_0 = 0;
+	int32_t G_B1_0 = 0;
+	int32_t G_B3_0 = 0;
+	int32_t G_B3_1 = 0;
 	{
 		SerializedVirtualizationData_t8EA4D4340BC124E7FC98396C263F0FEC091B53CB* L_0;
 		L_0 = VerticalVirtualizationController_1_get_serializedData_mBAE175BB1331E669FE93C025037ADDE19158A837(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
@@ -14613,12 +14617,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VerticalVirtualizationController_1_ge
 		NullCheck(L_2);
 		CollectionViewController_t89D7C4989B72B4127DF82DC97FED5D7FE01D9768* L_3;
 		L_3 = BaseVerticalCollectionView_get_viewController_m31FB4608049318BAFF48CA9C922797A0CA59264F_inline(L_2, NULL);
-		NullCheck(L_3);
-		int32_t L_4;
-		L_4 = VirtualFuncInvoker0< int32_t >::Invoke(9, L_3);
-		int32_t L_5;
-		L_5 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(L_1, ((int32_t)il2cpp_codegen_subtract(L_4, 1)), NULL);
-		return L_5;
+		if (L_3)
+		{
+			G_B2_0 = L_1;
+			goto IL_0025;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		SerializedVirtualizationData_t8EA4D4340BC124E7FC98396C263F0FEC091B53CB* L_4;
+		L_4 = VerticalVirtualizationController_1_get_serializedData_mBAE175BB1331E669FE93C025037ADDE19158A837(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
+		NullCheck(L_4);
+		int32_t L_5 = L_4->___firstVisibleIndex;
+		G_B3_0 = L_5;
+		G_B3_1 = G_B1_0;
+		goto IL_0037;
+	}
+
+IL_0025:
+	{
+		BaseVerticalCollectionView_t2BCDC86B9E301E46CFB2500A834D640F0B96ADAE* L_6 = __this->___m_CollectionView;
+		NullCheck(L_6);
+		CollectionViewController_t89D7C4989B72B4127DF82DC97FED5D7FE01D9768* L_7;
+		L_7 = BaseVerticalCollectionView_get_viewController_m31FB4608049318BAFF48CA9C922797A0CA59264F_inline(L_6, NULL);
+		NullCheck(L_7);
+		int32_t L_8;
+		L_8 = VirtualFuncInvoker0< int32_t >::Invoke(9, L_7);
+		G_B3_0 = ((int32_t)il2cpp_codegen_subtract(L_8, 1));
+		G_B3_1 = G_B2_0;
+	}
+
+IL_0037:
+	{
+		int32_t L_9;
+		L_9 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(G_B3_1, G_B3_0, NULL);
+		return L_9;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VerticalVirtualizationController_1_set_firstVisibleIndex_mABDC3B8CEFB53554BFEB003AE479DF99A5DC13A2_gshared (VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345* __this, int32_t ___0_value, const RuntimeMethod* method) 

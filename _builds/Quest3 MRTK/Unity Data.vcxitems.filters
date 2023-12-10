@@ -75,6 +75,9 @@
     <None Include="$(MSBuildThisFileDirectory)Data\sharedassets0.assets.resS">
       <Filter>Data</Filter>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets0.resource">
+      <Filter>Data</Filter>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Data\boot.config">
       <Filter>Data</Filter>
     </None>

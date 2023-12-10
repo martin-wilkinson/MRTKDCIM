@@ -24442,7 +24442,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualElement_WillChangePanel_mB58E07D06
 		bool L_1 = V_0;
 		if (!L_1)
 		{
-			goto IL_0069;
+			goto IL_0070;
 		}
 	}
 	{
@@ -24525,9 +24525,10 @@ IL_0067:
 
 IL_0068:
 	{
+		VisualElement_UnregisterRunningAnimations_m47BCC66FBCC8E44A9F338C9699EEC67581C54502(__this, NULL);
 	}
 
-IL_0069:
+IL_0070:
 	{
 		return;
 	}

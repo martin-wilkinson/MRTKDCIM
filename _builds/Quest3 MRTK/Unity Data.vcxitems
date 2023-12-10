@@ -93,6 +93,10 @@
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets0.resource">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Data\boot.config">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>

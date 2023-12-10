@@ -35,6 +35,8 @@ extern void U3CLoadJsonFromURLU3Ed__9_System_Collections_IEnumerator_Reset_m5B92
 extern void U3CLoadJsonFromURLU3Ed__9_System_Collections_IEnumerator_get_Current_mF671DD3F3BD782B6E64FB4C9C62E32D632C93D48 (void);
 extern void U3CStartU3Ed__6_MoveNext_mBBA04421A1F83AEF1DFAF3DE6072197CB8BD2EC2 (void);
 extern void U3CStartU3Ed__6_SetStateMachine_m03AF7AFBEBD52610F530A901CFA2C0E22887BD32 (void);
+extern void InstantiatePrefab_InstantiateAtButtonLocation_m71EC1D986034AF80767404B8D526A4F09A5C63E5 (void);
+extern void InstantiatePrefab__ctor_mCA39F8FFC93866004CA6F0E33194FF4AEFBCAB53 (void);
 extern void ChatController_OnEnable_m025CE203564D82A1CDCE5E5719DB07E29811D0B7 (void);
 extern void ChatController_OnDisable_mD49D03719CAEBB3F59F24A7FA8F4FD30C8B54E46 (void);
 extern void ChatController_AddToChatOutput_m9AB8FA8A32EA23F2E55795D8301ED0BF6A59F722 (void);
@@ -351,7 +353,7 @@ extern void SpatialGraphNodeTracker_get_Id_mE78E1B1BE44BC857A0B053BA3F1E760B56A8
 extern void SpatialGraphNodeTracker_set_Id_mDB14EEA1117F16F6E346D973EB38EE1AF2233767 (void);
 extern void SpatialGraphNodeTracker_Update_m1A23506173ABB85B171755263B1E1B43B6153219 (void);
 extern void SpatialGraphNodeTracker__ctor_m3DC91F966C01C182E396FBF9F02764E68E8DE158 (void);
-static Il2CppMethodPointer s_methodPointers[348] = 
+static Il2CppMethodPointer s_methodPointers[350] = 
 {
 	DirectInputAirTapDisplayer_Start_m3EA0EE8E870CA152C2565175584882E695F8B339,
 	DirectInputAirTapDisplayer_ProcessRightHand_m2F845F75E9A039E717CA12B3AA7F4E99E47D25E4,
@@ -376,6 +378,8 @@ static Il2CppMethodPointer s_methodPointers[348] =
 	U3CLoadJsonFromURLU3Ed__9_System_Collections_IEnumerator_get_Current_mF671DD3F3BD782B6E64FB4C9C62E32D632C93D48,
 	U3CStartU3Ed__6_MoveNext_mBBA04421A1F83AEF1DFAF3DE6072197CB8BD2EC2,
 	U3CStartU3Ed__6_SetStateMachine_m03AF7AFBEBD52610F530A901CFA2C0E22887BD32,
+	InstantiatePrefab_InstantiateAtButtonLocation_m71EC1D986034AF80767404B8D526A4F09A5C63E5,
+	InstantiatePrefab__ctor_mCA39F8FFC93866004CA6F0E33194FF4AEFBCAB53,
 	ChatController_OnEnable_m025CE203564D82A1CDCE5E5719DB07E29811D0B7,
 	ChatController_OnDisable_mD49D03719CAEBB3F59F24A7FA8F4FD30C8B54E46,
 	ChatController_AddToChatOutput_m9AB8FA8A32EA23F2E55795D8301ED0BF6A59F722,
@@ -711,11 +715,11 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[5] =
 {
 	{ 0x06000016, U3CStartU3Ed__6_MoveNext_mBBA04421A1F83AEF1DFAF3DE6072197CB8BD2EC2_AdjustorThunk },
 	{ 0x06000017, U3CStartU3Ed__6_SetStateMachine_m03AF7AFBEBD52610F530A901CFA2C0E22887BD32_AdjustorThunk },
-	{ 0x06000149, U3CStartU3Ed__32_MoveNext_m475B1F92ACE055A17FC0EE0A6069DF74FB3AB554_AdjustorThunk },
-	{ 0x0600014A, U3CStartU3Ed__32_SetStateMachine_m9F2B936BECE491F504DF327990707DC60E9A9B3C_AdjustorThunk },
-	{ 0x06000153, ActionData__ctor_m8780D0CAC51DDE011A0C327FE99F9541E2E5C7AB_AdjustorThunk },
+	{ 0x0600014B, U3CStartU3Ed__32_MoveNext_m475B1F92ACE055A17FC0EE0A6069DF74FB3AB554_AdjustorThunk },
+	{ 0x0600014C, U3CStartU3Ed__32_SetStateMachine_m9F2B936BECE491F504DF327990707DC60E9A9B3C_AdjustorThunk },
+	{ 0x06000155, ActionData__ctor_m8780D0CAC51DDE011A0C327FE99F9541E2E5C7AB_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[348] = 
+static const int32_t s_InvokerIndices[350] = 
 {
 	8479,
 	6838,
@@ -740,6 +744,8 @@ static const int32_t s_InvokerIndices[348] =
 	8336,
 	8479,
 	6645,
+	8479,
+	8479,
 	8479,
 	8479,
 	6645,
@@ -1068,9 +1074,9 @@ static const int32_t s_InvokerIndices[348] =
 };
 static const Il2CppTokenRangePair s_rgctxIndices[3] = 
 {
-	{ 0x0200004A, { 3, 3 } },
-	{ 0x02000050, { 6, 5 } },
-	{ 0x0600012C, { 0, 3 } },
+	{ 0x0200004B, { 3, 3 } },
+	{ 0x02000051, { 6, 5 } },
+	{ 0x0600012E, { 0, 3 } },
 };
 extern const uint32_t g_rgctx_TData_tF6F76CD99DD850DDA3F7AA5069327CBA390C42AB;
 extern const uint32_t g_rgctx_QRCodeEventArgs_1_t89DE9F6A4140CBC1AB8A709E9E0269FB33777638;
@@ -1101,7 +1107,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	348,
+	350,
 	s_methodPointers,
 	5,
 	s_adjustorThunks,

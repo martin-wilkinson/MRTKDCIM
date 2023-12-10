@@ -2,5 +2,5 @@
   Starting: D:\Unity\Projects\Quest3 MRTK\_builds\Il2CppOutputProject\IL2CPP\build\deploy\bee_backend\win-x64\bee_backend.exe --profile="D:/Unity/Projects/Quest3 MRTK/_builds/build/obj/il2cppOutputProject/ARM64/Release/buildstate/backend_profiler0.traceevents" --beedriver-listener --dagfile="D:/Unity/Projects/Quest3 MRTK/_builds/build/obj/il2cppOutputProject/ARM64/Release/buildstate/bee.dag" --continue-on-failure FinalProgram
   WorkingDir: D:/Unity/Projects/Quest3 MRTK/_builds/build/obj/il2cppOutputProject/ARM64/Release/buildstate
   ExitCode: 0 Duration: 22s
-  Build succeeded with 4 successful nodes and 0 failed ones
+  Build succeeded with 5 successful nodes and 0 failed ones
   

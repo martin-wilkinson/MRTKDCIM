@@ -240,9 +240,9 @@ namespace Microsoft.MixedReality.QuestMRTK3
             }
             else if (frameCounter == 240)
             {
-                debugDialog.text += "is tracking: " + IsTrackerRunning + "\n";
+                /*debugDialog.text += "is tracking: " + IsTrackerRunning + "\n";
                 debugDialog.text += "Built in QR List : " + qrList2 + "\n";
-                debugDialog.text += "Custom QR List: " + qrCodesList + "\n";
+                debugDialog.text += "Custom QR List: " + qrCodesList + "\n";*/
                 frameCounter = 0;
             }
         }

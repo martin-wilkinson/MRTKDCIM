@@ -35,7 +35,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\build\bin\ARM64\Release\Quest3 MRTK.exe">
       <PackagePath>Quest3 MRTK.exe</PackagePath>
-      <Modified>2023-12-10T05:11:19.969</Modified>
+      <Modified>2023-12-10T10:14:16.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\2022.3.13f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\UnityPlayer.winmd">
       <PackagePath>UnityPlayer.winmd</PackagePath>
@@ -98,7 +98,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2023-12-10T05:07:48.083</Modified>
+      <Modified>2023-12-10T10:13:02.864</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
@@ -106,23 +106,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\Data\il2cpp_data\Metadata\global-metadata.dat">
       <PackagePath>Data\il2cpp_data\Metadata\global-metadata.dat</PackagePath>
-      <Modified>2023-12-10T05:08:04.075</Modified>
+      <Modified>2023-12-10T10:13:19.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
-      <Modified>2023-12-10T05:08:03.479</Modified>
+      <Modified>2023-12-10T10:13:19.250</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2023-12-10T05:07:46.683</Modified>
+      <Modified>2023-12-10T10:13:02.731</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2023-12-10T05:07:46.682</Modified>
+      <Modified>2023-12-10T10:13:02.730</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2023-12-10T05:07:46.678</Modified>
+      <Modified>2023-12-10T10:13:02.727</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
@@ -130,31 +130,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2023-12-10T05:07:46.683</Modified>
+      <Modified>2023-12-10T10:13:02.733</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
-      <Modified>2023-12-10T05:07:46.680</Modified>
+      <Modified>2023-12-10T10:13:02.726</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2023-12-10T05:07:46.682</Modified>
+      <Modified>2023-12-10T10:13:02.728</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\Data\globalgamemanagers.assets.resS">
       <PackagePath>Data\globalgamemanagers.assets.resS</PackagePath>
-      <Modified>2023-12-10T05:07:46.684</Modified>
+      <Modified>2023-12-10T10:13:02.732</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
-      <Modified>2023-12-10T05:07:46.680</Modified>
+      <Modified>2023-12-10T10:13:02.728</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
-      <Modified>2023-12-10T05:07:46.681</Modified>
+      <Modified>2023-12-10T10:13:02.726</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-      <Modified>2023-12-10T05:07:46.682</Modified>
+      <Modified>2023-12-10T10:13:02.726</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\Data\RuntimeInitializeOnLoads.json">
       <PackagePath>Data\RuntimeInitializeOnLoads.json</PackagePath>
@@ -174,7 +174,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\Data\sharedassets0.resource">
       <PackagePath>Data\sharedassets0.resource</PackagePath>
-      <Modified>2023-12-10T05:07:46.681</Modified>
+      <Modified>2023-12-10T10:13:02.725</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\UnityOpenXR.dll">
       <PackagePath>UnityOpenXR.dll</PackagePath>
@@ -194,11 +194,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\Quest3 MRTK\lib_burst_generated.dll">
       <PackagePath>lib_burst_generated.dll</PackagePath>
-      <Modified>2023-12-10T05:08:14.593</Modified>
+      <Modified>2023-12-10T10:13:30.763</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\Projects\Quest3 MRTK\_builds\build\bin\ARM64\Release\GameAssembly.dll">
       <PackagePath>GameAssembly.dll</PackagePath>
-      <Modified>2023-12-10T05:11:17.443</Modified>
+      <Modified>2023-12-10T10:14:14.477</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\2022.3.13f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\baselib.dll">
       <PackagePath>baselib.dll</PackagePath>
